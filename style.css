@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+/*Corpo da página*/
+body {
+    border: none;
+    margin: 0;
+}
+
+/*Barra de menu*/
+.menu {
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    background-color: #0b0d0b;
+}
+
+/*tamanho e posição da Logo*/
+.logo {
+    width: 200px;
+    margin: 10px 0px 10px 0px;
+}
+
+/*Tamanho do elemento dropdown menu*/
+.tamanho {
+    width: 30px;
+}
+
+/*Imagem de fundo Soluções Inteligentes*/
+.solucoes {
+    margin-top: 82px;
+    height: auto;
+    background-color: #0b0d0b;
+    background-image: url(fundo_mulher.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Texto Soluções Inteligentes*/
+h1.titulo {
+    font-family: 'Montserrat';
+    color: #00ca22;
+    font-weight: 800;
+    text-align: left;
+    margin: 10% 5% 5% 15%;
+    line-height: 150%;
+}
+
+/*Variação de cor Soluções Inteligentes*/
+.color {
+    color: #FFFFFF;
+}
+
+/*Texto grifado*/
+.grifado {
+    background-color: #00ca22;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+/*Configurações da imagem da mulher*/
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/*Imagem de fundo lampada led*/
+.led {
+    margin-top: 0;
+    height: fit-content;
+    background-color: #0b0d0b;
+    background-image: url(led_1366.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Titulo Lampada Led*/
+.ledtitle {
+    font-family: 'Montserrat';
+    color: #00ca22;
+    font-weight: 800;
+    text-align: left;
+    margin: 0% 2% 0% 5%;
+    padding-top: 5%;
+}
+
+/*parágrafo*/
+p.texto {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin: 2% 5% 5% 5%;
+    text-align: justify;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+/*Configurações imagem Lampada LED*/
+.lampada {
+    width: 100%;
+}
+
+/*Div verde*/
+.topicos {
+    background-color: #00ca22;
+}
+
+/*Texto Checklist*/
+.checklist {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+.negrito {
+    color: #00ca22;
+    font-weight: 600;
+}
+
+.dimmertexto {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+/* criação de footer */
+
+h5.copyright {
+    color: lightslategray;
+}
+
+.rodape {
+    background-color: #000000;
+}
